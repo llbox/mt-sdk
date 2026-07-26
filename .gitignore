@@ -1,0 +1,12 @@
+# IDE
+.idea/
+
+# 示例程序下载的 .torrent 文件（announce 地址含 PT 站 passkey，勿提交）
+*.torrent
+
+# 构建产物
+*.exe
+*.dll
+*.so
+*.dylib
+/dist/
