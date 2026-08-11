@@ -1,4 +1,4 @@
-package pkg
+package mt
 
 // SearchBuilder 链式构造 TorrentSearchReq，简化多参数搜索
 type SearchBuilder struct {

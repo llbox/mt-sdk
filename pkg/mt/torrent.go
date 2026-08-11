@@ -1,4 +1,4 @@
-package pkg
+package mt
 
 import (
 	"context"
@@ -95,29 +95,44 @@ type TorrentItem struct {
 }
 
 type TorrentStatus struct {
-	ID               string  `json:"id"`
-	CreatedDate      string  `json:"createdDate"`
-	LastModifiedDate string  `json:"lastModifiedDate"`
-	PickType         string  `json:"pickType"`
-	ToppingLevel     string  `json:"toppingLevel"`
-	ToppingEndTime   *string `json:"toppingEndTime"`
-	Discount         string  `json:"discount"`
-	DiscountEndTime  *string `json:"discountEndTime"`
-	TimesCompleted   string  `json:"timesCompleted"`
-	Comments         string  `json:"comments"`
-	LastAction       *string `json:"lastAction"`
-	LastSeederAction *string `json:"lastSeederAction"`
-	Views            string  `json:"views"`
-	Hits             string  `json:"hits"`
-	Support          string  `json:"support"`
-	Oppose           string  `json:"oppose"`
-	Status           string  `json:"status"`
-	Seeders          string  `json:"seeders"`
-	Leechers         string  `json:"leechers"`
-	Banned           bool    `json:"banned"`
-	Visible          bool    `json:"visible"`
-	PromotionRule    any     `json:"promotionRule"`
-	MallSingleFree   any     `json:"mallSingleFree"`
+	ID               string          `json:"id"`
+	CreatedDate      string          `json:"createdDate"`
+	LastModifiedDate string          `json:"lastModifiedDate"`
+	PickType         string          `json:"pickType"`
+	ToppingLevel     string          `json:"toppingLevel"`
+	ToppingEndTime   *string         `json:"toppingEndTime"`
+	Discount         string          `json:"discount"`
+	DiscountEndTime  *string         `json:"discountEndTime"`
+	TimesCompleted   string          `json:"timesCompleted"`
+	Comments         string          `json:"comments"`
+	LastAction       *string         `json:"lastAction"`
+	LastSeederAction *string         `json:"lastSeederAction"`
+	Views            string          `json:"views"`
+	Hits             string          `json:"hits"`
+	Support          string          `json:"support"`
+	Oppose           string          `json:"oppose"`
+	Status           string          `json:"status"`
+	Seeders          string          `json:"seeders"`
+	Leechers         string          `json:"leechers"`
+	Banned           bool            `json:"banned"`
+	Visible          bool            `json:"visible"`
+	PromotionRule    any             `json:"promotionRule"`
+	MallSingleFree   *MallSingleFree `json:"mallSingleFree"`
+}
+
+type MallSingleFree struct {
+	Auction          string `json:"auction"`
+	CreateDate       string `json:"createDate"`
+	StartDate        string `json:"startDate"`
+	EndDate          string `json:"endDate"`
+	FreeDay          string `json:"freeDay"`
+	Id               string `json:"id"`
+	isAdult          bool   `json:"isAdult"`
+	LastModifiedDate string `json:"lastModifiedDate"`
+	Points           string `json:"points"`
+	Status           string `json:"status"`
+	Torrent          string `json:"torrent"`
+	UserId           string `json:"userId"`
 }
 
 type DmmInfo struct {

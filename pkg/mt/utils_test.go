@@ -1,4 +1,4 @@
-package pkg
+package mt
 
 import "testing"
 

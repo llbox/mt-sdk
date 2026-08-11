@@ -1,4 +1,4 @@
-package pkg
+package mt
 
 // VideoCodec 视频编码
 type VideoCodec string

@@ -4,7 +4,9 @@ import (
 	"context"
 	"fmt"
 	"log/slog"
-	mt "github.com/llbox/mt-sdk/pkg"
+
+	"github.com/llbox/mt-sdk/pkg/mt"
+
 	"os"
 )
 

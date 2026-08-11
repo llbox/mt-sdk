@@ -1,4 +1,4 @@
-package pkg
+package mt
 
 // Discount 促销类型
 type Discount string

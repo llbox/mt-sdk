@@ -1,4 +1,4 @@
-package pkg
+package mt
 
 // Lang 语言
 type Lang string

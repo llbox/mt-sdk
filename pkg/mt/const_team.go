@@ -1,4 +1,4 @@
-package pkg
+package mt
 
 // Team 制作组
 type Team string

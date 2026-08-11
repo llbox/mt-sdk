@@ -1,4 +1,4 @@
-package pkg
+package mt
 
 // Category 种子分类
 type Category string
