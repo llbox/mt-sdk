@@ -69,7 +69,7 @@ type TorrentItem struct {
 	Source             *string        `json:"source"`
 	Medium             *string        `json:"medium"`
 	Standard           string         `json:"standard"`
-	VideoCodec         string         `json:"videoCodec"`
+	VideoCodec         *string        `json:"videoCodec"`
 	AudioCodec         string         `json:"audioCodec"`
 	Team               *string        `json:"team"`
 	Processing         *string        `json:"processing"`
