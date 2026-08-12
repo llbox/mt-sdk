@@ -30,3 +30,28 @@ const (
 	MediumTrack  Medium = "9"  // Track
 	MediumWebDL  Medium = "10" // Web-DL
 )
+
+// SourceName 返回来源的名称
+var SourceName = map[Source]string{
+	SourceBluRay: "Bluray",
+	SourceDVD:    "DVD",
+	SourceRemux:  "Remux",
+	SourceHDTV:   "HDTV/TV",
+	SourceOther:  "Other",
+	SourceWebDL:  "Web-DL",
+	SourceCD:     "CD",
+}
+
+// MediumName 返回媒介的名称
+var MediumName = map[Medium]string{
+	MediumBluRay: "Blu-ray",
+	MediumHDDVD:  "HD DVD",
+	MediumRemux:  "Remux",
+	MediumMiniBD: "MiniBD",
+	MediumHDTV:   "HDTV",
+	MediumDVDR:   "DVDR",
+	MediumEncode: "Encode",
+	MediumCD:     "CD",
+	MediumTrack:  "Track",
+	MediumWebDL:  "Web-DL",
+}

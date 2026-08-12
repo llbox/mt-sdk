@@ -38,3 +38,34 @@ const (
 	SearchModeTVShow SearchMode = "tvshow"
 	SearchModeMovie  SearchMode = "movie"
 )
+
+// DiscountName 返回促销类型的名称
+var DiscountName = map[Discount]string{
+	DiscountFree:      "free",
+	DiscountPercent50: "50%",
+	DiscountPercent70: "30%",
+	DiscountNormal:    "DiscountNormal",
+}
+
+// LabelName 返回种子标记的名称
+var LabelName = map[Label]string{
+	LabelsNew4K:              "4k",
+	LabelsNew8K:              "8k",
+	LabelsNewHDR:             "hdr",
+	LabelsNewHDR10:           "hdr10",
+	LabelsNewHDR10Plus:       "hdr10+",
+	LabelsNewHLG:             "hlg",
+	LabelsNewDoVi:            "杜比视界",
+	LabelsNewHDRVi:           "HDR Vivid",
+	LabelsNewChineseSubtitle: "中字",
+	LabelsNewChineseDub:      "中配",
+	LabelsNewAIPoJie:         "AI破解",
+}
+
+// SearchModeName 返回搜索模式的名称
+var SearchModeName = map[SearchMode]string{
+	SearchModeNormal: "normal",
+	SearchModeAdult:  "adult",
+	SearchModeTVShow: "tvshow",
+	SearchModeMovie:  "movie",
+}

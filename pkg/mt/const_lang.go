@@ -37,3 +37,38 @@ const (
 	LangSlovenian          Lang = "30" // Slovenian
 	LangThai               Lang = "31" // Thai
 )
+
+// LangName 返回语言的名称
+var LangName = map[Lang]string{
+	LangBulgarian:          "Bulgarian",
+	LangCroatian:           "Croatian",
+	LangCzech:              "Czech",
+	LangDanish:             "Danish",
+	LangDutch:              "Dutch",
+	LangEnglish:            "English",
+	LangEstonian:           "Estonian",
+	LangFinnish:            "Finnish",
+	LangFrench:             "French",
+	LangGerman:             "German",
+	LangGreek:              "Greek",
+	LangHebrew:             "Hebrew",
+	LangHungarian:          "Hungarian",
+	LangItalian:            "Italian",
+	LangJapanese:           "日本語",
+	LangKorean:             "한국어",
+	LangNorwegian:          "Norwegian",
+	LangOther:              "Other",
+	LangPolish:             "Polish",
+	LangPortuguese:         "Portuguese",
+	LangRomanian:           "Romanian",
+	LangRussian:            "Russian",
+	LangSerbian:            "Serbian",
+	LangSlovak:             "Slovak",
+	LangSimplifiedChinese:  "简体中文",
+	LangSpanish:            "Spanish",
+	LangSwedish:            "Swedish",
+	LangTraditionalChinese: "繁體中文",
+	LangTurkish:            "Turkish",
+	LangSlovenian:          "Slovenian",
+	LangThai:               "Thai",
+}

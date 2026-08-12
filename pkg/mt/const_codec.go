@@ -49,3 +49,44 @@ const (
 	Standard4K    Standard = "6" // 4K
 	Standard8K    Standard = "7" // 8K
 )
+
+// VideoCodecName 返回视频编码的名称
+var VideoCodecName = map[VideoCodec]string{
+	VideoCodecH264:  "H.264(x264/AVC)",
+	VideoCodecVC1:   "VC-1",
+	VideoCodecXvid:  "Xvid",
+	VideoCodecMPEG2: "MPEG-2",
+	VideoCodecH265:  "H.265(x265/HEVC)",
+	VideoCodecAV1:   "AV1",
+	VideoCodecVP89:  "VP8/9",
+	VideoCodecAVS:   "AVS",
+}
+
+// AudioCodecName 返回音频编码的名称
+var AudioCodecName = map[AudioCodec]string{
+	AudioCodecFLAC:        "FLAC",
+	AudioCodecAPE:         "APE",
+	AudioCodecDTS:         "DTS",
+	AudioCodecMP23:        "MP2/3",
+	AudioCodecOGG:         "OGG",
+	AudioCodecAAC:         "AAC",
+	AudioCodecOther:       "Other",
+	AudioCodecAC3:         "AC3(DD)",
+	AudioCodecTrueHD:      "TrueHD",
+	AudioCodecTrueHDAtmos: "TrueHD Atmos",
+	AudioCodecDTSHDMA:     "DTS-HD MA",
+	AudioCodecEAC3:        "E-AC3(DDP)",
+	AudioCodecEAC3Atmos:   "E-AC3 Atoms(DDP Atoms)",
+	AudioCodecLPCM:        "LPCM/PCM",
+	AudioCodecWAV:         "WAV",
+}
+
+// StandardName 返回分辨率的名称
+var StandardName = map[Standard]string{
+	StandardP1080: "1080p",
+	StandardI1080: "1080i",
+	StandardP720:  "720p",
+	StandardSD:    "SD",
+	Standard4K:    "4K",
+	Standard8K:    "8K",
+}

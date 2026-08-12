@@ -31,3 +31,32 @@ const (
 	TeamDStudio     Team = "64" // DStudio
 	TeamAisha       Team = "65" // Aisha
 )
+
+// TeamName 返回制作组的名称
+var TeamName = map[Team]string{
+	TeamBMDru:       "BMDru",
+	TeamPack:        "Pack",
+	TeamMTeam:       "MTeam",
+	TeamCNHK:        "CNHK",
+	TeamTnP:         "TnP",
+	TeamCatEDU:      "CatEDU",
+	TeamARiC:        "ARiC",
+	Team7ACG:        "7³ACG",
+	TeamJKCT:        "JKCT",
+	TeamG00DB0Y:     "G00DB0Y",
+	TeamD0:          "D0",
+	TeamHBO:         "HBO",
+	TeamREE:         "REE",
+	TeamTPTV:        "TPTV",
+	TeamMWeb:        "MWeb",
+	TeamCTRL:        "CTRL",
+	TeamZTR:         "ZTR",
+	Team126811:      "126811",
+	TeamDST:         "DST",
+	TeamStarfallWeb: "StarfallWeb",
+	TeamRRS:         "RRS",
+	TeamLijiangTv:   "lijiang-tv",
+	TeamZZH:         "ZZH",
+	TeamDStudio:     "DStudio",
+	TeamAisha:       "Aisha",
+}
